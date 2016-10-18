@@ -35,6 +35,7 @@ int main(int argc, char **argv) {
 	printf("SamplesPerSec: %u\n", header.SamplesPerSec);
 	printf("bytesPerSec: %u\n", header.bytesPerSec);
 	printf("bitsPerSample: %hu\n", header.bitsPerSample); 
+	printf("Tamanho dos dados: %d\n", header.Subchunk2Size);
 
 
 	int numeroAmostras = ((fileLength- headerSize)/(header.bitsPerSample/8));
