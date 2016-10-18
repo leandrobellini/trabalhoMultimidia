@@ -38,14 +38,37 @@ int main(int argc, char **argv) {
 	printf("Tamanho dos dados: %d\n", header.Subchunk2Size);
 
 
-	int numeroAmostras = ((fileLength- headerSize)/(header.bitsPerSample/8));
+	int numeroAmostras = (header.Subchunk2Size*8)/(header.bitsPerSample);
 	printf("Numero de amostras: %d\n", numeroAmostras);
-
 
 
 	//Aqui tenho o arquivo aberto f... vou pular o cabeçalho
 	fseek(f, headerSize,SEEK_SET);
-	int i;
+
+	unsigned short canalEsquerda[numeroAmostras/2];
+	unsigned short canalDireita[numeroAmostras/2];
+
+	int i,j = 0;
+
+	//Esquerda
+	for(i=0;i < numeroAmostras; i+=2){
+		fread(&canalEsquerda[j++], sizeof(unsigned short), 1, f);
+		fseek(f, sizeof(unsigned short), SEEK_CUR);
+	}
+
+
+	//Direita
+	j=0;
+	fseek(f, headerSize+sizeof(unsigned short),SEEK_SET);
+	for(i=1;i < numeroAmostras; i+=2){
+		fread(&canalDireita[j++], sizeof(unsigned short), 1, f);
+		fseek(f, sizeof(unsigned short), SEEK_CUR);
+	}
+
+
+	for(i=0; i < numeroAmostras/2; i++){
+		printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
+	}
 
 	char nomeSaida[256];
 	strcpy(nomeSaida, "saida.b");
