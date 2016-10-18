@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 
 	fread(&header, headerSize, 1, f);
 	fileLength = getFileSize(f);
-
+ 
 
 	printf("File size: %d bytes\n", fileLength);
 	printf("Tamanho do cabecalho: %d bytes\n", headerSize);
