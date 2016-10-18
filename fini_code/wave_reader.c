@@ -82,7 +82,7 @@ int main(int argc, char **argv) {
 	while (!feof(f)){
 		//printf("etoru\n");
 		fread(&sampleNumBytes[i],sizeof(uint16_t),1,f);
-		printf("\nSanple[%d] = %u",i,sampleNumBytes[i]);
+		//printf("\nSanple[%d] = %u",i,sampleNumBytes[i]);
 		i++;
 	}
 
