@@ -112,15 +112,36 @@ int main(int argc, char **argv) {
 
 	unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
 		int i=0, contador=0, posicao=0;
-		unsigned short novoCanalEsquerda[numeroAmostras/2], novoCanalDireita[numeroAmostras/2];
+		unsigned short canalEsquerdaComprimido[numeroAmostras/2], canalDireitaComprimido[numeroAmostras/2];
 
 		while (i<=(numeroAmostras/2)){
 			//printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
 			
 			//comprimindo canal da ESQUERDA
+			canalEsquerdaComprimido [i] = canalEsquerda [posicao];
 			if (canalEsquerda[i]){
-
+				
 			}
+
+
+/* traverse the input string one by one */
+  for(i = 0; i < len; i++)
+  {
+ 
+    /* Copy the first occurrence of the new character */
+    dest[j++] = src[i];
+     
+    /* Count the number of occurrences of the new character */
+    rLen = 1;     
+    while(i + 1 < len && src[i] == src[i+1])
+    {
+      rLen++;
+      i++;
+    }   
+     
+    /* Store rLen in a character array count[] */
+    sprintf(count, "%d", rLen);
+
 
 
 			//comprimindo canal da DIREITA
