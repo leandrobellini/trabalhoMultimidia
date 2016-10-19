@@ -5,6 +5,17 @@
 #include "wave_reader.c"
 
 
+//========================= CABECALHO DAS FUNCOES APLICADAS NA COMPRESSAO =========================//
+
+unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras);
+
+//unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras);
+
+
+
+
+//========================= MAIN =========================//
+
 int main(int argc, char **argv) {
 	FILE *f;
 	int headerSize = sizeof(wav_hdr);
@@ -66,9 +77,9 @@ int main(int argc, char **argv) {
 	}
 
 
-	for(i=0; i < numeroAmostras/2; i++){
+/*	for(i=0; i < numeroAmostras/2; i++){
 		printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
-	}
+	}*/
 
 	char nomeSaida[256];
 	strcpy(nomeSaida, "saida.b");
@@ -85,7 +96,36 @@ int main(int argc, char **argv) {
 
 	huffmanDescomprime(nomeSaida, novoArq);*/
 
+	runLengthComprime(canalEsquerda, canalDireita, numeroAmostras);
+
+	//runLengthDescomprime(canalEsquerda, canalDireita, numeroAmostras);
+
 	fclose(f);
 
 	return EXIT_SUCCESS;
 }
+
+
+
+
+//========================= FUNCOES TRABALHADAS NO PROJETO DE COMPRESSAO =========================//
+
+	unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
+		int i=0;
+
+		for(i=0; i < numeroAmostras/2; i++){
+			printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
+		}
+
+	}
+
+
+
+
+
+	/*unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
+
+	}*/
+
+
+
