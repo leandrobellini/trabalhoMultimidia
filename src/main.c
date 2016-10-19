@@ -111,11 +111,32 @@ int main(int argc, char **argv) {
 //========================= FUNCOES TRABALHADAS NO PROJETO DE COMPRESSAO =========================//
 
 	unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
-		int i=0;
+		int i=0, contador=0, posicao=0;
+		unsigned short novoCanalEsquerda[numeroAmostras/2], novoCanalDireita[numeroAmostras/2];
 
-		for(i=0; i < numeroAmostras/2; i++){
-			printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
+		while (i<=(numeroAmostras/2)){
+			//printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
+			
+			//comprimindo canal da ESQUERDA
+			if (canalEsquerda[i]){
+
+			}
+
+
+			//comprimindo canal da DIREITA
+			if(){
+
+			}
+
+			i++;
 		}
+
+
+
+
+
+
+
 
 	}
 
