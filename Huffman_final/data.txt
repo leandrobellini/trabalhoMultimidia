@@ -1,0 +1,547 @@
+File size: 276768 bytes
+Tamanho do cabecalho: 44 bytes
+ChunkID: RIFF9
+ChunkSize: 276760
+AudioFormat: 1
+NumOfChan: 2
+SamplesPerSec: 44100
+bytesPerSec: 176400
+bitsPerSample: 16
+Subchunk2Size: 276528
+Numero de amostras: 276528
+
+	-> Construindo Tabela de frequencia...
+Validos: 256
+
+Validos: 256
+
+	-> Construindo a arvore de huffman...
+FIMMM
+
+
+Tudo ok ateh aqui?
+Dado: 999, frequencia: 276528, binario: 
+Dado: 999, frequencia: 116822, binario: 
+Dado: 999, frequencia: 71184, binario: 
+Dado: 999, frequencia: 55147, binario: 
+Dado: 999, frequencia: 40453, binario: 
+Dado: 999, frequencia: 34352, binario: 
+Dado: 999, frequencia: 29940, binario: 
+Dado: 255, frequencia: 27126, binario: 000
+Dado: 0, frequencia: 23635, binario: 1110
+Dado: 999, frequencia: 19728, binario: 
+Dado: 999, frequencia: 17925, binario: 
+Dado: 999, frequencia: 16774, binario: 
+Dado: 999, frequencia: 15645, binario: 
+Dado: 999, frequencia: 14814, binario: 
+Dado: 999, frequencia: 13756, binario: 
+Dado: 999, frequencia: 11651, binario: 
+Dado: 999, frequencia: 10065, binario: 
+Dado: 254, frequencia: 9850, binario: 11000
+Dado: 999, frequencia: 9268, binario: 
+Dado: 1, frequencia: 8948, binario: 10100
+Dado: 999, frequencia: 8701, binario: 
+Dado: 999, frequencia: 8286, binario: 
+Dado: 999, frequencia: 8009, binario: 
+Dado: 999, frequencia: 7762, binario: 
+Dado: 999, frequencia: 7507, binario: 
+Dado: 999, frequencia: 7390, binario: 
+Dado: 251, frequencia: 7015, binario: 00110
+Dado: 253, frequencia: 6803, binario: 00100
+Dado: 999, frequencia: 6213, binario: 
+Dado: 999, frequencia: 5804, binario: 
+Dado: 999, frequencia: 5209, binario: 
+Dado: 250, frequencia: 5006, binario: 110100
+Dado: 999, frequencia: 4915, binario: 
+Dado: 999, frequencia: 4810, binario: 
+Dado: 999, frequencia: 4563, binario: 
+Dado: 5, frequencia: 4470, binario: 101010
+Dado: 999, frequencia: 4413, binario: 
+Dado: 999, frequencia: 4343, binario: 
+Dado: 999, frequencia: 4213, binario: 
+Dado: 999, frequencia: 4104, binario: 
+Dado: 999, frequencia: 4026, binario: 
+Dado: 999, frequencia: 3994, binario: 
+Dado: 999, frequencia: 3923, binario: 
+Dado: 999, frequencia: 3865, binario: 
+Dado: 999, frequencia: 3789, binario: 
+Dado: 999, frequencia: 3745, binario: 
+Dado: 999, frequencia: 3672, binario: 
+Dado: 999, frequencia: 3612, binario: 
+Dado: 999, frequencia: 3409, binario: 
+Dado: 249, frequencia: 3254, binario: 1111110
+Dado: 999, frequencia: 3048, binario: 
+Dado: 999, frequencia: 2865, binario: 
+Dado: 999, frequencia: 2710, binario: 
+Dado: 999, frequencia: 2604, binario: 
+Dado: 999, frequencia: 2497, binario: 
+Dado: 999, frequencia: 2445, binario: 
+Dado: 999, frequencia: 2391, binario: 
+Dado: 999, frequencia: 2333, binario: 
+Dado: 999, frequencia: 2263, binario: 
+Dado: 999, frequencia: 2245, binario: 
+Dado: 999, frequencia: 2228, binario: 
+Dado: 999, frequencia: 2200, binario: 
+Dado: 999, frequencia: 2177, binario: 
+Dado: 999, frequencia: 2168, binario: 
+Dado: 999, frequencia: 2131, binario: 
+Dado: 999, frequencia: 2100, binario: 
+Dado: 999, frequencia: 2086, binario: 
+Dado: 999, frequencia: 2041, binario: 
+Dado: 999, frequencia: 2024, binario: 
+Dado: 999, frequencia: 2012, binario: 
+Dado: 999, frequencia: 1993, binario: 
+Dado: 999, frequencia: 1976, binario: 
+Dado: 999, frequencia: 1958, binario: 
+Dado: 999, frequencia: 1946, binario: 
+Dado: 999, frequencia: 1928, binario: 
+Dado: 999, frequencia: 1910, binario: 
+Dado: 999, frequencia: 1890, binario: 
+Dado: 999, frequencia: 1879, binario: 
+Dado: 999, frequencia: 1870, binario: 
+Dado: 999, frequencia: 1855, binario: 
+Dado: 999, frequencia: 1833, binario: 
+Dado: 999, frequencia: 1813, binario: 
+Dado: 999, frequencia: 1802, binario: 
+Dado: 246, frequencia: 1761, binario: 0010110
+Dado: 999, frequencia: 1679, binario: 
+Dado: 999, frequencia: 1550, binario: 
+Dado: 999, frequencia: 1511, binario: 
+Dado: 999, frequencia: 1459, binario: 
+Dado: 11, frequencia: 1407, binario: 11110000
+Dado: 244, frequencia: 1351, binario: 11011100
+Dado: 999, frequencia: 1297, binario: 
+Dado: 999, frequencia: 1280, binario: 
+Dado: 999, frequencia: 1248, binario: 
+Dado: 12, frequencia: 1232, binario: 11001010
+Dado: 999, frequencia: 1217, binario: 
+Dado: 999, frequencia: 1209, binario: 
+Dado: 999, frequencia: 1190, binario: 
+Dado: 13, frequencia: 1184, binario: 10110110
+Dado: 241, frequencia: 1163, binario: 10110100
+Dado: 999, frequencia: 1143, binario: 
+Dado: 999, frequencia: 1128, binario: 
+Dado: 999, frequencia: 1119, binario: 
+Dado: 14, frequencia: 1118, binario: 10011110
+Dado: 999, frequencia: 1111, binario: 
+Dado: 999, frequencia: 1105, binario: 
+Dado: 999, frequencia: 1097, binario: 
+Dado: 240, frequencia: 1090, binario: 10010110
+Dado: 999, frequencia: 1087, binario: 
+Dado: 999, frequencia: 1082, binario: 
+Dado: 999, frequencia: 1071, binario: 
+Dado: 999, frequencia: 1064, binario: 
+Dado: 999, frequencia: 1054, binario: 
+Dado: 17, frequencia: 1050, binario: 10001000
+Dado: 999, frequencia: 1047, binario: 
+Dado: 999, frequencia: 1041, binario: 
+Dado: 999, frequencia: 1030, binario: 
+Dado: 999, frequencia: 1018, binario: 
+Dado: 999, frequencia: 1015, binario: 
+Dado: 999, frequencia: 1010, binario: 
+Dado: 999, frequencia: 1006, binario: 
+Dado: 999, frequencia: 1006, binario: 
+Dado: 999, frequencia: 1000, binario: 
+Dado: 999, frequencia: 996, binario: 
+Dado: 16, frequencia: 990, binario: 01101110
+Dado: 999, frequencia: 987, binario: 
+Dado: 999, frequencia: 980, binario: 
+Dado: 999, frequencia: 978, binario: 
+Dado: 999, frequencia: 975, binario: 
+Dado: 999, frequencia: 972, binario: 
+Dado: 999, frequencia: 967, binario: 
+Dado: 999, frequencia: 963, binario: 
+Dado: 239, frequencia: 959, binario: 01011110
+Dado: 999, frequencia: 953, binario: 
+Dado: 999, frequencia: 949, binario: 
+Dado: 999, frequencia: 944, binario: 
+Dado: 999, frequencia: 941, binario: 
+Dado: 999, frequencia: 939, binario: 
+Dado: 18, frequencia: 937, binario: 01010010
+Dado: 999, frequencia: 934, binario: 
+Dado: 999, frequencia: 930, binario: 
+Dado: 19, frequencia: 927, binario: 01000100
+Dado: 999, frequencia: 919, binario: 
+Dado: 999, frequencia: 916, binario: 
+Dado: 999, frequencia: 911, binario: 
+Dado: 999, frequencia: 904, binario: 
+Dado: 999, frequencia: 900, binario: 
+Dado: 237, frequencia: 891, binario: 00101110
+Dado: 236, frequencia: 860, binario: 00101010
+Dado: 21, frequencia: 823, binario: 00101000
+Dado: 23, frequencia: 807, binario: 111110110
+Dado: 230, frequencia: 774, binario: 111110100
+Dado: 24, frequencia: 765, binario: 111110010
+Dado: 26, frequencia: 747, binario: 111110000
+Dado: 229, frequencia: 735, binario: 111100110
+Dado: 231, frequencia: 725, binario: 111100100
+Dado: 27, frequencia: 671, binario: 110111010
+Dado: 224, frequencia: 644, binario: 110110000
+Dado: 29, frequencia: 640, binario: 110101110
+Dado: 30, frequencia: 640, binario: 110101100
+Dado: 219, frequencia: 619, binario: 110101000
+Dado: 221, frequencia: 619, binario: 110010110
+Dado: 207, frequencia: 612, binario: 110010010
+Dado: 35, frequencia: 606, binario: 110010000
+Dado: 220, frequencia: 605, binario: 101110110
+Dado: 33, frequencia: 604, binario: 101110100
+Dado: 209, frequencia: 600, binario: 101110010
+Dado: 211, frequencia: 595, binario: 101110000
+Dado: 217, frequencia: 594, binario: 101101110
+Dado: 212, frequencia: 584, binario: 101101010
+Dado: 223, frequencia: 578, binario: 101100110
+Dado: 41, frequencia: 570, binario: 101100100
+Dado: 57, frequencia: 565, binario: 101100010
+Dado: 60, frequencia: 564, binario: 101100000
+Dado: 205, frequencia: 563, binario: 101011010
+Dado: 197, frequencia: 559, binario: 101011000
+Dado: 45, frequencia: 559, binario: 100111110
+Dado: 198, frequencia: 558, binario: 100111010
+Dado: 189, frequencia: 554, binario: 100111000
+Dado: 200, frequencia: 554, binario: 100110110
+Dado: 203, frequencia: 552, binario: 100110100
+Dado: 40, frequencia: 551, binario: 100110010
+Dado: 165, frequencia: 548, binario: 100110000
+Dado: 206, frequencia: 545, binario: 100101110
+Dado: 181, frequencia: 545, binario: 100101010
+Dado: 188, frequencia: 543, binario: 100101000
+Dado: 49, frequencia: 543, binario: 100100010
+Dado: 58, frequencia: 539, binario: 100100000
+Dado: 214, frequencia: 536, binario: 100011110
+Dado: 63, frequencia: 535, binario: 100011100
+Dado: 193, frequencia: 533, binario: 100011010
+Dado: 192, frequencia: 532, binario: 100011000
+Dado: 48, frequencia: 529, binario: 100010110
+Dado: 183, frequencia: 526, binario: 100010100
+Dado: 195, frequencia: 524, binario: 100010010
+Dado: 173, frequencia: 523, binario: 100001100
+Dado: 191, frequencia: 522, binario: 100001010
+Dado: 83, frequencia: 520, binario: 100001000
+Dado: 56, frequencia: 516, binario: 100000110
+Dado: 66, frequencia: 514, binario: 100000100
+Dado: 157, frequencia: 511, binario: 100000010
+Dado: 187, frequencia: 508, binario: 100000000
+Dado: 160, frequencia: 508, binario: 011111110
+Dado: 91, frequencia: 507, binario: 011111100
+Dado: 163, frequencia: 507, binario: 011111010
+Dado: 178, frequencia: 505, binario: 011111000
+Dado: 152, frequencia: 504, binario: 011110110
+Dado: 68, frequencia: 503, binario: 011110010
+Dado: 44, frequencia: 503, binario: 011110000
+Dado: 186, frequencia: 503, binario: 011110100
+Dado: 129, frequencia: 500, binario: 011100110
+Dado: 182, frequencia: 500, binario: 011100100
+Dado: 51, frequencia: 498, binario: 011100010
+Dado: 64, frequencia: 498, binario: 011100000
+Dado: 74, frequencia: 497, binario: 011011110
+Dado: 101, frequencia: 494, binario: 011011010
+Dado: 140, frequencia: 493, binario: 011011000
+Dado: 115, frequencia: 492, binario: 011010110
+Dado: 169, frequencia: 490, binario: 011010010
+Dado: 179, frequencia: 490, binario: 011010100
+Dado: 84, frequencia: 489, binario: 011010000
+Dado: 142, frequencia: 488, binario: 011001110
+Dado: 146, frequencia: 487, binario: 011001100
+Dado: 100, frequencia: 487, binario: 011001010
+Dado: 93, frequencia: 486, binario: 011001000
+Dado: 180, frequencia: 485, binario: 011000110
+Dado: 67, frequencia: 483, binario: 011000100
+Dado: 95, frequencia: 482, binario: 011000010
+Dado: 106, frequencia: 481, binario: 011000000
+Dado: 128, frequencia: 480, binario: 010111110
+Dado: 123, frequencia: 478, binario: 010111010
+Dado: 171, frequencia: 475, binario: 010111000
+Dado: 145, frequencia: 475, binario: 010110110
+Dado: 96, frequencia: 474, binario: 010110100
+Dado: 151, frequencia: 473, binario: 010110010
+Dado: 86, frequencia: 472, binario: 010110000
+Dado: 110, frequencia: 471, binario: 010101110
+Dado: 118, frequencia: 470, binario: 010101100
+Dado: 105, frequencia: 470, binario: 010101010
+Dado: 117, frequencia: 469, binario: 010101000
+Dado: 133, frequencia: 468, binario: 010100010
+Dado: 164, frequencia: 467, binario: 010100000
+Dado: 99, frequencia: 466, binario: 010001110
+Dado: 76, frequencia: 464, binario: 010001100
+Dado: 138, frequencia: 464, binario: 010001010
+Dado: 121, frequencia: 460, binario: 010000110
+Dado: 153, frequencia: 459, binario: 010000100
+Dado: 112, frequencia: 458, binario: 010000010
+Dado: 127, frequencia: 458, binario: 010000000
+Dado: 116, frequencia: 457, binario: 001111110
+Dado: 135, frequencia: 455, binario: 001111100
+Dado: 155, frequencia: 452, binario: 001111000
+Dado: 87, frequencia: 451, binario: 001110010
+Dado: 122, frequencia: 449, binario: 001110000
+Dado: 124, frequencia: 444, binario: 001011110
+Dado: 111, frequencia: 435, binario: 001010110
+Dado: 136, frequencia: 424, binario: 001010010
+
+[255] => 000
+[253] => 00100
+[21] => 00101000
+[136] => 001010010
+[108] => 001010011
+[236] => 00101010
+[111] => 001010110
+[137] => 001010111
+[246] => 0010110
+[237] => 00101110
+[124] => 001011110
+[103] => 001011111
+[251] => 00110
+[122] => 001110000
+[159] => 001110001
+[87] => 001110010
+[132] => 001110011
+[10] => 0011101
+[155] => 001111000
+[141] => 001111001
+[20] => 00111101
+[135] => 001111100
+[156] => 001111101
+[116] => 001111110
+[94] => 001111111
+[127] => 010000000
+[126] => 010000001
+[112] => 010000010
+[130] => 010000011
+[153] => 010000100
+[125] => 010000101
+[121] => 010000110
+[77] => 010000111
+[19] => 01000100
+[138] => 010001010
+[113] => 010001011
+[76] => 010001100
+[120] => 010001101
+[99] => 010001110
+[161] => 010001111
+[252] => 01001
+[164] => 010100000
+[92] => 010100001
+[133] => 010100010
+[79] => 010100011
+[18] => 01010010
+[238] => 01010011
+[117] => 010101000
+[147] => 010101001
+[105] => 010101010
+[139] => 010101011
+[118] => 010101100
+[149] => 010101101
+[110] => 010101110
+[109] => 010101111
+[86] => 010110000
+[158] => 010110001
+[151] => 010110010
+[131] => 010110011
+[96] => 010110100
+[134] => 010110101
+[145] => 010110110
+[65] => 010110111
+[171] => 010111000
+[97] => 010111001
+[123] => 010111010
+[71] => 010111011
+[239] => 01011110
+[128] => 010111110
+[166] => 010111111
+[106] => 011000000
+[162] => 011000001
+[95] => 011000010
+[104] => 011000011
+[67] => 011000100
+[102] => 011000101
+[180] => 011000110
+[114] => 011000111
+[93] => 011001000
+[75] => 011001001
+[100] => 011001010
+[167] => 011001011
+[146] => 011001100
+[90] => 011001101
+[142] => 011001110
+[82] => 011001111
+[84] => 011010000
+[69] => 011010001
+[169] => 011010010
+[73] => 011010011
+[179] => 011010100
+[168] => 011010101
+[115] => 011010110
+[170] => 011010111
+[140] => 011011000
+[150] => 011011001
+[101] => 011011010
+[174] => 011011011
+[16] => 01101110
+[74] => 011011110
+[80] => 011011111
+[64] => 011100000
+[70] => 011100001
+[51] => 011100010
+[98] => 011100011
+[182] => 011100100
+[172] => 011100101
+[129] => 011100110
+[78] => 011100111
+[6] => 011101
+[44] => 011110000
+[144] => 011110001
+[68] => 011110010
+[143] => 011110011
+[186] => 011110100
+[55] => 011110101
+[152] => 011110110
+[177] => 011110111
+[178] => 011111000
+[107] => 011111001
+[163] => 011111010
+[85] => 011111011
+[91] => 011111100
+[88] => 011111101
+[160] => 011111110
+[175] => 011111111
+[187] => 100000000
+[72] => 100000001
+[157] => 100000010
+[154] => 100000011
+[66] => 100000100
+[201] => 100000101
+[56] => 100000110
+[119] => 100000111
+[83] => 100001000
+[54] => 100001001
+[191] => 100001010
+[61] => 100001011
+[173] => 100001100
+[176] => 100001101
+[15] => 10000111
+[17] => 10001000
+[195] => 100010010
+[62] => 100010011
+[183] => 100010100
+[148] => 100010101
+[48] => 100010110
+[185] => 100010111
+[192] => 100011000
+[89] => 100011001
+[193] => 100011010
+[184] => 100011011
+[63] => 100011100
+[202] => 100011101
+[214] => 100011110
+[59] => 100011111
+[58] => 100100000
+[190] => 100100001
+[49] => 100100010
+[42] => 100100011
+[9] => 1001001
+[188] => 100101000
+[37] => 100101001
+[181] => 100101010
+[47] => 100101011
+[240] => 10010110
+[206] => 100101110
+[204] => 100101111
+[165] => 100110000
+[81] => 100110001
+[40] => 100110010
+[208] => 100110011
+[203] => 100110100
+[199] => 100110101
+[200] => 100110110
+[196] => 100110111
+[189] => 100111000
+[194] => 100111001
+[198] => 100111010
+[39] => 100111011
+[14] => 10011110
+[45] => 100111110
+[46] => 100111111
+[1] => 10100
+[5] => 101010
+[197] => 101011000
+[50] => 101011001
+[205] => 101011010
+[38] => 101011011
+[247] => 1010111
+[60] => 101100000
+[53] => 101100001
+[57] => 101100010
+[215] => 101100011
+[41] => 101100100
+[43] => 101100101
+[223] => 101100110
+[210] => 101100111
+[241] => 10110100
+[212] => 101101010
+[36] => 101101011
+[13] => 10110110
+[217] => 101101110
+[32] => 101101111
+[211] => 101110000
+[52] => 101110001
+[209] => 101110010
+[222] => 101110011
+[33] => 101110100
+[31] => 101110101
+[220] => 101110110
+[213] => 101110111
+[3] => 101111
+[254] => 11000
+[35] => 110010000
+[34] => 110010001
+[207] => 110010010
+[216] => 110010011
+[12] => 11001010
+[221] => 110010110
+[227] => 110010111
+[4] => 110011
+[250] => 110100
+[219] => 110101000
+[226] => 110101001
+[242] => 11010101
+[30] => 110101100
+[218] => 110101101
+[29] => 110101110
+[225] => 110101111
+[224] => 110110000
+[28] => 110110001
+[243] => 11011001
+[248] => 1101101
+[244] => 11011100
+[27] => 110111010
+[228] => 110111011
+[8] => 1101111
+[0] => 1110
+[11] => 11110000
+[245] => 11110001
+[231] => 111100100
+[232] => 111100101
+[229] => 111100110
+[25] => 111100111
+[2] => 111101
+[26] => 111110000
+[233] => 111110001
+[24] => 111110010
+[22] => 111110011
+[230] => 111110100
+[235] => 111110101
+[23] => 111110110
+[234] => 111110111
+[249] => 1111110
+[7] => 1111111Tamanho tabela compactacao: 256
+
+	-> Comprimindo arquivo...
+	-> Arquivo comprimido com sucesso: saida.b
+
+
+	-> Reconstruindo Tabela de frequencia apartir do arquivo saida.b...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+bitsPerSample: 16
+NumOfChan: 2
+Subchunk2Size: 276528
+Tamanho da tabela: -327682

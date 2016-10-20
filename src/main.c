@@ -3,6 +3,7 @@
 #include<string.h>
 
 #include "wave_reader.c"
+#include "diferencas.c"
 
 
 int main(int argc, char **argv) {
@@ -66,9 +67,25 @@ int main(int argc, char **argv) {
 	}
 
 
+	short atual;
+
 	for(i=0; i < numeroAmostras/2; i++){
 		printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
 	}
+
+	exit(0);
+
+	atual = canalEsquerda[0];
+	short diferencas[numeroAmostras];
+	diferencas[0] = atual;
+
+	for(i=1; i < numeroAmostras/2; i++){
+		diferencas[i] = canalEsquerda[i] - canalEsquerda[i-1];
+		printf("%d\n", diferencas[i-1]);
+	}
+
+
+
 
 	char nomeSaida[256];
 	strcpy(nomeSaida, "saida.b");
@@ -77,7 +94,12 @@ int main(int argc, char **argv) {
 	strcpy(novoArq, "novo.wav");
 
 	fseek(f, headerSize,SEEK_SET);
-	rewind(f);
+
+	//codificacaoDiferencas(header, canalEsquerda, canalDireita, numeroAmostras/2);
+
+	printf("\n\nDescompacta...\n");
+
+	//decodificaoDiferencas(numeroAmostras/2);
 
 	/*huffmanComprime(f, nomeSaida, &header, numeroAmostras);
 
