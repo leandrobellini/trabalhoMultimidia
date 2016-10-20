@@ -119,8 +119,7 @@ int main(int argc, char **argv) {
  		
 
 		while(i<=(numeroAmostras/2)){
-			canalEsquerdaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
-	 		
+	 		canalEsquerdaComprimido = (unsigned short*)realloc( canalEsquerdaComprimido, (i+1)*sizeof(unsigned short));
 			//comprimindo canal da ESQUERDA
 			aux=0;
 			canalEsquerdaComprimido[i] = canalEsquerda[posicao];
@@ -142,7 +141,7 @@ int main(int argc, char **argv) {
 
 			//comprimindo canal da DIREITA
 			/*while(i<=(numeroAmostras/2)){
-			canalDireitaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
+			canalDireitaComprimido = (unsigned short*)realloc( canalDireitaComprimido, (i+1)*sizeof(unsigned short));
 	
 			//comprimindo canal da ESQUERDA
 			aux=0;
