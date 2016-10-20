@@ -136,11 +136,11 @@ int main(int argc, char **argv) {
 			canalEsquerdaComprimido[i+1]=contador;
 			contador=0;
 
-				printf("\n%u %u ", canalEsquerdaComprimido[i], canalEsquerdaComprimido[i+1]);
+			printf("\n(%u) X*(%u)", canalEsquerdaComprimido[i], canalEsquerdaComprimido[i+1]);
 
 
 			//comprimindo canal da DIREITA
-			/*while(i<=(numeroAmostras/2)){
+			while(i<=(numeroAmostras/2)){
 			canalDireitaComprimido = (unsigned short*)realloc( canalDireitaComprimido, (i+1)*sizeof(unsigned short));
 	
 			//comprimindo canal da ESQUERDA
@@ -159,13 +159,15 @@ int main(int argc, char **argv) {
 			canalDireitaComprimido[i+1] = contador;
 			contador=0;
 
-				printf("\n%u %u ", canalDireitaComprimido[i], canalDireitaComprimido[i+1]);*/
+				printf("\n(%u) Y*(%u)", canalDireitaComprimido[i], canalDireitaComprimido[i+1]);
 
 			i = i+2;
-		}
+			}    
 
-		i=0;
-}
+			i=0;
+		}
+	}
+
 
 
 
