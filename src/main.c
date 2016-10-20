@@ -113,12 +113,16 @@ int main(int argc, char **argv) {
 
 	unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
 		int i=0, contador=0, posicao=0, aux=0;
-		unsigned short canalEsquerdaComprimido[numeroAmostras/2], canalDireitaComprimido[numeroAmostras/2];
-printf("%d\n", numeroAmostras );
+		unsigned short *canalEsquerdaComprimido, *canalDireitaComprimido;
+		canalEsquerdaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
+ 		canalDireitaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
+ 		
+
 		while(i<=(numeroAmostras/2)){
-			//printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
-			aux=0;
+			canalEsquerdaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
+	 		
 			//comprimindo canal da ESQUERDA
+			aux=0;
 			canalEsquerdaComprimido[i] = canalEsquerda[posicao];
 			while(canalEsquerda[posicao]==canalEsquerda[posicao+1]){
 				aux=1;
@@ -137,7 +141,26 @@ printf("%d\n", numeroAmostras );
 
 
 			//comprimindo canal da DIREITA
-			
+			/*while(i<=(numeroAmostras/2)){
+			canalDireitaComprimido = (unsigned short*)malloc(sizeof(unsigned short));
+	
+			//comprimindo canal da ESQUERDA
+			aux=0;
+			canalDireitaComprimido[i] = canalDireita[posicao];
+			while(canalDireita[posicao]==canalDireita[posicao+1]){
+				aux=1;
+				posicao++;
+				contador++;
+			}
+
+			if(aux==0){
+				posicao++;
+			}
+
+			canalDireitaComprimido[i+1] = contador;
+			contador=0;
+
+				printf("\n%u %u ", canalDireitaComprimido[i], canalDireitaComprimido[i+1]);*/
 
 			i = i+2;
 		}
