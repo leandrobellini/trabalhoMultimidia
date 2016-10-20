@@ -9,7 +9,7 @@
 
 unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras);
 
-//unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras);
+unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras);
 
 
 
@@ -47,9 +47,10 @@ int main(int argc, char **argv) {
 	printf("bytesPerSec: %u\n", header.bytesPerSec);
 	printf("bitsPerSample: %hu\n", header.bitsPerSample); 
 	printf("Tamanho dos dados: %d\n", header.Subchunk2Size);
+	
 
 
-	int numeroAmostras = (header.Subchunk2Size*8)/(header.bitsPerSample);
+	int numeroAmostras = ((header.Subchunk2Size)/2);
 	printf("Numero de amostras: %d\n", numeroAmostras);
 
 
@@ -111,63 +112,55 @@ int main(int argc, char **argv) {
 //========================= FUNCOES TRABALHADAS NO PROJETO DE COMPRESSAO =========================//
 
 	unsigned short runLengthComprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
-		int i=0, contador=0, posicao=0;
+		int i=0, contador=0, posicao=0, aux=0;
 		unsigned short canalEsquerdaComprimido[numeroAmostras/2], canalDireitaComprimido[numeroAmostras/2];
-
-		while (i<=(numeroAmostras/2)){
+printf("%d\n", numeroAmostras );
+		while(i<=(numeroAmostras/2)){
 			//printf("\n%u %u ", canalEsquerda[i], canalDireita[i]);
-			
+			aux=0;
 			//comprimindo canal da ESQUERDA
-			canalEsquerdaComprimido [i] = canalEsquerda [posicao];
-			if (canalEsquerda[i]){
-				
+			canalEsquerdaComprimido[i] = canalEsquerda[posicao];
+			while(canalEsquerda[posicao]==canalEsquerda[posicao+1]){
+				aux=1;
+				posicao++;
+				contador++;
 			}
 
+			if(aux==0){
+				posicao++;
+			}
 
-/* traverse the input string one by one */
-  for(i = 0; i < len; i++)
-  {
- 
-    /* Copy the first occurrence of the new character */
-    dest[j++] = src[i];
-     
-    /* Count the number of occurrences of the new character */
-    rLen = 1;     
-    while(i + 1 < len && src[i] == src[i+1])
-    {
-      rLen++;
-      i++;
-    }   
-     
-    /* Store rLen in a character array count[] */
-    sprintf(count, "%d", rLen);
+			canalEsquerdaComprimido[i+1]=contador;
+			contador=0;
 
+				printf("\n%u %u ", canalEsquerdaComprimido[i], canalEsquerdaComprimido[i+1]);
 
 
 			//comprimindo canal da DIREITA
-			if(){
+			
 
-			}
-
-			i++;
+			i = i+2;
 		}
 
+		i=0;
+}
 
 
 
 
 
 
+
+
+	
+
+
+
+
+
+	unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
 
 	}
-
-
-
-
-
-	/*unsigned short runLengthDescomprime(unsigned short *canalEsquerda, unsigned short *canalDireita, int numeroAmostras){
-
-	}*/
 
 
 
